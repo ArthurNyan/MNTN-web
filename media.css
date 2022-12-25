@@ -1,0 +1,143 @@
+
+
+@media (max-width: 1400px){
+    .header{
+        padding-bottom: 250px;
+    }
+
+    .article-text {
+        max-width: 45%;
+        padding-left: 50px;
+    }
+
+    .article-img{
+        max-width: 45%;
+    }
+
+    .article-text::before{
+        width: 140px;
+        height: 140px;
+        font-size: 140px;    
+    }
+
+    .footer-nav + .footer-nav{
+        margin-left: 70px;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .hero-h{
+        font-size: 68px;
+    }
+    .article-text {
+        max-width: 45%;
+        padding-left: 50px;
+    }
+
+    .article-img{
+        max-width: 45%;
+    }
+
+    .article-text::before{
+        width: 140px;
+        height: 140px;
+        font-size: 140px;    
+    }
+
+
+}
+
+@media screen and (max-width: 1100px){
+    .foter-copyright{
+        max-width:400px ;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .subtitle{
+        padding-left: 64px;
+    }
+
+    .subtitle::before{
+        width:52px ;
+    }
+    .nav, .login{
+        display: none;
+    }
+    .nav-button{
+        display: block;
+    }
+    .navigation{
+        margin-bottom: 90px;
+    }
+    .mobile-nav-active{
+        display: flex;
+    }
+
+    .hero-h{
+        font-size: 38px;
+    }
+
+    .hero-category::before{
+        width: 42px;
+    }
+
+    .hero-category{
+        font-size: 14px;
+        padding-left: 62px;
+    }
+
+    .header{
+        padding-bottom: 200px;
+    }
+
+    .article-title{
+        font-size: 39px;
+    }
+
+    .foter-copyright{
+        max-width:300px ;
+    }
+
+    .footer-nav + .footer-nav{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .article-text, .article-img{
+        max-width: 100%;  
+    }
+
+    .article-img{
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-text{
+        margin-bottom: 40px;
+    }
+
+    .footer-nav-wrapper{
+        display: none;
+    }
+
+    .foter-copyright{
+        max-width:600px;
+    }
+}
+.nav-button-close .nav-button-icon{
+    background-color: transparent;
+}
+
+.nav-button-close .nav-button-icon::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+.nav-button-close .nav-button-icon::after{
+    transform: rotate(-45deg);
+    top: 0;
+}
